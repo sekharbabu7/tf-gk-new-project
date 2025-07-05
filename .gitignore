@@ -30,3 +30,4 @@ crash.log
 
 # VS Code settings (optional)
 .vscode/
+git remote add origin
