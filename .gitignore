@@ -1,0 +1,32 @@
+# Terraform working directory
+.terraform/
+
+# Local .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+*.log
+
+# Terraform variable override files
+*.tfvars
+!qa.tfvars
+!somu.tfvars
+
+# Sensitive files
+*.pem
+*.key
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Lock file
+.terraform.lock.hcl
+
+# VS Code settings (optional)
+.vscode/
