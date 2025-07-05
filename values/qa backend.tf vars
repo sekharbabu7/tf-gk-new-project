@@ -1,0 +1,4 @@
+bucket         = "terraform-backend-qa-bucket"
+key            = "envs/qa/terraform.tfstate"
+region         = "us-east-1"
+dynamodb_table = "terraform-locks-qa"
